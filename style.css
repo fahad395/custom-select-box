@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #19c1da;
+}
+
+.box
+{  position: absolute;
+
+    left: 50%;
+    top: 50%;
+     transform: translate(-50%,-50%);
+
+}
+
+.box select{
+
+    background: #5c9df2;
+    color: #fff;
+    padding: 15px;
+    width: 280px;
+    height: 60px;
+    border: none;
+    font-size: 25px;
+    box-shadow: 0 5px  20px rgba(0, 0,0,0.5);
+   outline: none;
+
+
+}
+
+
+
+.box::before{
+    content: '\f358';
+    position: absolute;
+    font-family: "Font Awesome 5 free";
+   
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
+    background: #84b7f9;
+}
+
+.box:hover:before{
+    background:#6b57e0 ;
+}
